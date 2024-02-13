@@ -1,0 +1,22 @@
+{
+  "name": "cnb-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS app built with Cloud-native Buildpacks",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": ""
+  },
+  "author": "Alexandre Roman",
+  "license": "ASL-2.0",
+  "engines": {
+    "node": ">= 12 <13"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "os": "^0.1.1",
+    "prom-client": "^12.0.0",
+    "properties-reader": "^2.2.0"
+  }
+}
